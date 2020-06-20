@@ -38,6 +38,8 @@ public class ChatServer {
     boolean serverIsRunning;
 
     ChatServer() {
+//        assert false : "Assert Message";
+
         this.serverIsRunning = false;
 
         this.socketToUserMap = new HashMap<Socket, User>();
@@ -168,7 +170,7 @@ public class ChatServer {
             try {
                 new ObjectOutputStream(entry.getKey().getOutputStream()).writeObject(packet);
             } catch (Exception e) {
-                this.log("Encountered an error when sending packet to all: " + e.getMessage());
+//                this.log("Encountered an error when sending packet to all: " + e.getMessage());
             }
         }
     }

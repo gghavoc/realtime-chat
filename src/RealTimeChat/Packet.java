@@ -29,7 +29,6 @@ public class Packet implements Serializable {
     public int getPacketType() {
         return this.packetType;
     }
-
     public String getPacketContent() {
         return this.packetContent;
     }
