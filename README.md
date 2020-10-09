@@ -18,5 +18,5 @@
 ---
 <br /><br/><br/>
 ```
-This is just a personal project that I made while learing Java. Nothing serious.
+This is just a personal project that I made while learning Java. Nothing serious.
 ```
